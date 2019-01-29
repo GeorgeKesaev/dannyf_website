@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Dan Feldman</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
@@ -13,16 +13,37 @@
             /* background-color: aqua */
         }
 
-        /* .leftDiv {
-            background-color: lightgreen;
-            width: 40%;
-        } */
-        /* .rightDiv { */
-            /* display: inline-block; */
-            /* min-width: 400px; */
-            /* width: 60%; */
-            /* float: left; */
-        /* } */
+        h1 {
+            margin-right: 0;
+            margin-left: 0;
+            font-size: 24.0pt;
+            font-family: "Times New Roman", "serif";
+            font-weight: bold;
+            color:#38942C;
+        }
+
+        h2 {
+            margin-right: 0;
+            margin-left: 0;
+            font-size: 18.0pt;
+            font-family: "Times New Roman", "serif";
+            font-weight: bold;
+        }
+
+        h3 {
+            margin-right: 0;
+            margin-left: 0;
+            font-size: 13.5pt;
+            font-family: "Times New Roman", "serif";
+            font-weight: bold;
+        }
+
+        p {
+            margin-right: 0;
+            margin-left: 0;
+            font-size: 14.0pt;
+            font-family: "Garamond"
+        }
 
         .green-paragraph {
             font-size:18.0pt;
@@ -32,7 +53,16 @@
             line-height:150%;
         }
 
-        .black-paragraph {
+        p.publication {
+            margin-top: 10.0pt;
+            margin-right: 94.6pt;
+            margin-bottom: 10.0pt;
+            margin-left: 72.0pt;
+            text-indent: -18.0pt;
+            line-height: 150%;
+        }
+
+        p.black-paragraph {
             font-size:14.0pt;
             line-height:150%;
             margin-top:2.0pt;
@@ -42,365 +72,70 @@
             line-height:150%;
         }
 
-        /* Style Definitions */
-        p.MsoNormal, li.MsoNormal, div.MsoNormal {
-            mso-style-parent: "";
-            margin: 0;
-            margin-bottom: .0001pt;
-            mso-pagination: widow-orphan;
-            font-size: 12.0pt;
-            font-family: "Times New Roman", "serif";
-            mso-fareast-font-family: "Times New Roman";
-        }
-
-        h1 {
-            mso-margin-top-alt: auto;
-            margin-right: 0;
-            mso-margin-bottom-alt: auto;
-            margin-left: 0;
-            mso-pagination: widow-orphan;
-            mso-outline-level: 1;
-            font-size: 24.0pt;
-            font-family: "Times New Roman", "serif";
-            mso-fareast-font-family: "Times New Roman";
-            font-weight: bold;
-        }
-
-        h2 {
-            mso-margin-top-alt: auto;
-            margin-right: 0;
-            mso-margin-bottom-alt: auto;
-            margin-left: 0;
-            mso-pagination: widow-orphan;
-            mso-outline-level: 2;
-            font-size: 18.0pt;
-            font-family: "Times New Roman", "serif";
-            mso-fareast-font-family: "Times New Roman";
-            font-weight: bold;
-        }
-
-        h3 {
-            mso-margin-top-alt: auto;
-            margin-right: 0;
-            mso-margin-bottom-alt: auto;
-            margin-left: 0;
-            mso-pagination: widow-orphan;
-            mso-outline-level: 3;
-            font-size: 13.5pt;
-            font-family: "Times New Roman", "serif";
-            mso-fareast-font-family: Batang;
-            font-weight: bold;
-        }
-
-        p.MsoBodyText, li.MsoBodyText, div.MsoBodyText {
-            margin-top: 0;
-            margin-right: 0;
-            margin-bottom: 6.0pt;
-            margin-left: 0;
-            mso-pagination: widow-orphan;
-            font-size: 12.0pt;
-            font-family: "Times New Roman", "serif";
-            mso-fareast-font-family: "Times New Roman";
-        }
-
-        a:link, span.MsoHyperlink {
-            color: blue;
-            text-decoration: underline;
-            text-underline: single;
-        }
-
-        a:visited, span.MsoHyperlinkFollowed {
-            color: blue;
-            text-decoration: underline;
-            text-underline: single;
-        }
-
-        p {
-            mso-margin-top-alt: auto;
-            margin-right: 0;
-            mso-margin-bottom-alt: auto;
-            margin-left: 0;
-            mso-pagination: widow-orphan;
-            font-size: 12.0pt;
-            font-family: "Times New Roman", "serif";
-            mso-fareast-font-family: "Times New Roman";
-        }
-
-        p.MsoAcetate, li.MsoAcetate, div.MsoAcetate {
-            margin: 0;
-            margin-bottom: .0001pt;
-            mso-pagination: widow-orphan;
-            font-size: 8.0pt;
-            font-family: "Tahoma", "sans-serif";
-            mso-fareast-font-family: "Times New Roman";
-        }
-
-        p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph {
-            margin-top: 0;
-            margin-right: 0;
-            margin-left: 36.0pt;
-            mso-pagination: widow-orphan;
-            font-size: 12.0pt;
-            font-family: "Times New Roman", "serif";
-            mso-fareast-font-family: "Times New Roman";
-        }
-
-        p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst {
-            mso-style-type: export-only;
-            margin-top: 0;
-            margin-right: 0;
-            margin-left: 36.0pt;
-            mso-pagination: widow-orphan;
-            font-size: 12.0pt;
-            font-family: "Times New Roman", "serif";
-            mso-fareast-font-family: "Times New Roman";
-        }
-
-        p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast {
-            mso-style-type: export-only;
-            margin-top: 0;
-            margin-right: 0;
-            margin-left: 36.0pt;
-            mso-pagination: widow-orphan;
-            font-size: 12.0pt;
-            font-family: "Times New Roman", "serif";
-            mso-fareast-font-family: "Times New Roman";
-        }
-
-        span.Heading1Char {
-            mso-style-name: "Heading 1 Char";
-            mso-ansi-font-size: 14.0pt;
-            mso-bidi-font-size: 14.0pt;
-            font-family: "Cambria", "serif";
-            mso-ascii-font-family: Cambria;
-            mso-fareast-font-family: "Times New Roman";
-            mso-hansi-font-family: Cambria;
-            mso-bidi-font-family: "Times New Roman";
-            color: #365F91;
-            mso-bidi-language: HE;
-            font-weight: bold;
-        }
-
-        span.Heading2Char {
-            mso-style-name: "Heading 2 Char";
-            mso-ansi-font-size: 13.0pt;
-            mso-bidi-font-size: 13.0pt;
-            font-family: "Cambria", "serif";
-            mso-ascii-font-family: Cambria;
-            mso-fareast-font-family: "Times New Roman";
-            mso-hansi-font-family: Cambria;
-            mso-bidi-font-family: "Times New Roman";
-            color: #4F81BD;
-            mso-bidi-language: HE;
-            font-weight: bold;
-        }
-
-        span.Heading3Char {
-            mso-style-name: "Heading 3 Char";
-            mso-ansi-font-size: 12.0pt;
-            mso-bidi-font-size: 12.0pt;
-            font-family: "Cambria", "serif";
-            mso-ascii-font-family: Cambria;
-            mso-fareast-font-family: "Times New Roman";
-            mso-hansi-font-family: Cambria;
-            mso-bidi-font-family: "Times New Roman";
-            color: #4F81BD;
-            mso-bidi-language: HE;
-            font-weight: bold;
-        }
-
-        span.BodyTextChar {
-            mso-style-name: "Body Text Char";
-            mso-ansi-font-size: 12.0pt;
-            mso-bidi-font-size: 12.0pt;
-            mso-bidi-language: HE;
-        }
-
-        span.BalloonTextChar {
-            mso-style-name: "Balloon Text Char";
-            mso-ansi-font-size: 8.0pt;
-            mso-bidi-font-size: 8.0pt;
-            font-family: "Tahoma", "sans-serif";
-            mso-ascii-font-family: Tahoma;
-            mso-hansi-font-family: Tahoma;
-            mso-bidi-font-family: Tahoma;
-        }
-
-        p.Style1, li.Style1, div.Style1 {
-            mso-style-name: Style1;
-            mso-style-parent: "Heading 3";
-            mso-margin-top-alt: auto;
-            margin-right: 0cm;
-            mso-margin-bottom-alt: auto;
-            margin-left: 36.0pt;
-            text-indent: -18.0pt;
-            mso-pagination: widow-orphan;
-            mso-outline-level: 3;
-            mso-list: l2 level1 lfo2;
-            tab-stops: list 36.0pt;
-            font-size: 12.0pt;
-            font-family: "Times New Roman", "serif";
-            mso-fareast-font-family: Batang;
-            text-decoration: underline;
-            text-underline: single;
-        }
-
-        p.Objective, li.Objective, div.Objective {
-            mso-style-name: Objective;
-            mso-style-next: "Body Text";
-            margin-top: 3.0pt;
-            margin-right: 0;
-            margin-bottom: 11.0pt;
-            margin-left: 0;
-            text-align: justify;
-            line-height: 11.0pt;
-            mso-pagination: widow-orphan;
-            font-size: 11.0pt;
-            mso-bidi-font-size: 10.0pt;
-            font-family: "Garamond", "serif";
-            mso-fareast-font-family: "Times New Roman";
-            mso-bidi-font-family: "Times New Roman";
-            mso-bidi-language: AR-SA;
-        }
-
-        p.Style2, li.Style2, div.Style2 {
-            mso-style-name: Style2;
-            mso-style-parent: Objective;
-            margin-top: 3.0pt;
-            margin-right: 0;
-            margin-bottom: 11.0pt;
-            margin-left: 30.6pt;
-            text-indent: -18.0pt;
-            mso-line-height-alt: 11.0pt;
-            mso-pagination: widow-orphan;
-            mso-list: l1 level1 lfo4;
-            tab-stops: list 30.6pt 36.0pt;
-            font-size: 12.0pt;
-            font-family: "Times New Roman", "serif";
-            mso-fareast-font-family: "Times New Roman";
-            mso-bidi-language: AR-SA;
-        }
-
-        p.Style3, li.Style3, div.Style3 {
-            mso-style-name: Style3;
-            mso-style-parent: Objective;
-            margin-top: 3.0pt;
-            margin-right: 0;
-            margin-bottom: 11.0pt;
-            margin-left: 30.6pt;
-            text-indent: -18.0pt;
-            line-height: 15.0pt;
-            mso-line-height-rule: exactly;
-            mso-pagination: widow-orphan;
-            mso-list: l1 level1 lfo4;
-            tab-stops: list 30.6pt 36.0pt;
-            font-size: 12.0pt;
-            font-family: "Times New Roman", "serif";
-            mso-fareast-font-family: "Times New Roman";
-            mso-bidi-language: AR-SA;
-            font-style: italic;
-        }
-
-        span.apple-converted-space {
-            mso-style-name: apple-converted-space;
-        }
-
-        span.il {
-            mso-style-name: il;
-        }
-
-        span.authors {
-            mso-style-name: authors;
-        }
-
-        span.title {
-            mso-style-name: title;
-        }
-
-        span.SpellE {
-            mso-style-name: "";
-        }
-
-        span.GramE {
-            mso-style-name: "";
-        }
-
-        .MsoChpDefault {
-            mso-style-type: export-only;
-            font-size: 10.0pt;
-            mso-ansi-font-size: 10.0pt;
-            mso-bidi-font-size: 10.0pt;
-        }
-
-        .caption {
-            display: block;
-        }
-
         ol {
             margin-bottom: 0;
         }
 
-        ul {
-            margin-bottom: 0;
+        dl {
+            margin-left: 72.0pt;
+            margin-top: 10.0pt;
+            margin-right: 94.6pt;
+            margin-bottom: 10.0pt;
+            font-size: 14.0pt;
+            font-family: "Garamond";
+            list-style-type:none;
+            text-indent: -18.0pt;
+            line-height: 150%;
         }
+
+        dt {
+            margin-top: 15pt;
+        }
+
+        .red {
+            color:#E46C0A;
+            font-style: italic
+        }
+
         /* div.header {
             position: relative;
         } */
     </style>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133412001-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-133412001-1');
-    </script>
 </head>
 
 <body lang=EN-US link=blue vlink=blue>
 
-<header>
-        <div class="leftDiv">
-            <img width=511 height=340 src="http://people.csail.mit.edu/dannyf/index_files/image002.jpg" align=left hspace=12 alt="Dan Feldman"
-                v:shapes="Picture_x0020_5">
-        </div>
+    <header>
+            <div class="leftDiv">
+                <img width=511 height=340 src="http://people.csail.mit.edu/dannyf/index_files/image002.jpg" align=left hspace=12 alt="Dan Feldman"
+                    v:shapes="Picture_x0020_5">
+            </div>
 
 
-        <div class='rightDiv'>
-            <h1 style='color:#38942C'>
-                Dan Feldman's Home Page
-            </h1>
-            <h3 style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:36.0pt;
-            margin-bottom:.0001pt;background:white'>
-            <span style='font-size:12.0pt;font-family:"Garamond","serif";color:black;font-weight:normal;align:left'>
-                Director of the
-                <a href="http://sites.hevra.haifa.ac.il/bdrl/">
-                    Robotics and Big Data Lab,
-                </a>
-                <br>
-                and Senior Lecturer at the
-                <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/">
-                        Computer Science Department
-                </a>
-                <br>
-                University of Haifa,
-            </span>
-            </h3>
+            <div class='rightDiv'>
+                <h1>
+                    Dan Feldman's Home Page
+                </h1>
+                <p class='black-paragraph'>
+                    Director of the <a href="http://sites.hevra.haifa.ac.il/bdrl/">Robotics and Big Data Lab,                </a>
+                    <br>
+                    and Senior Lecturer at the <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/">Computer Science Department</a>
+                    <br>
+                    University of Haifa,
+                </p>
 
-            <p class=MsoNormal style='margin-left:27.0pt'>
-                <i>
-                    e-mail:
-                    <a href="mailto:dannyf.post@gmail.com">
-                        dannyf.post@gmail.com
-                    </a>
-                </i>
-            </p>
+                <p>
+                    <i>
+                        e-mail:
+                        <a href="mailto:dannyf.post@gmail.com">
+                            dannyf.post@gmail.com
+                        </a>
+                    </i>
+                </p>
 
-            <hr size=3>
+                <hr size=3>
 
-            <p class=MsoNormal>
-                <b>
+                <p><b>
                     <span style='font-size:14.0pt'>
                         Check out the new
                         <a href="http://sites.hevra.haifa.ac.il/bdrl/">
@@ -408,13 +143,12 @@
                         </a>
                         page of my group !
                     </span>
-                </b>
-            </p>
-    </div>
-</header>
+                </b></p>
+        </div>
+    </header>
 
 
-<div>
+
     <h2 class="green-paragraph">
         Current research
     </h2>
@@ -422,10 +156,10 @@
         Machine learning of Big Data, Internet of Things, Swarm robotics, and 3D-cameras.<br>
         I am especially excited about reducing the gap between theoretical and practical algorithms, using my experience in the industry and academy.
     </p>
+
     <h2 class="green-paragraph">
         Main technique
     </h2>
-
     <p class="black-paragraph">
             Core-sets: Semantic compression of data sets into small sets that provably approximate
              the original data for a given problem. Using merge-reduce (e.g. Spark) the small sets
@@ -433,45 +167,26 @@
             real-time and on Big streaming data.
     </p>
 
-    <p class=MsoNormal style='margin-top:12.0pt;line-height:150%'>
-        <b>
-            <span style='font-size:18.0pt;line-height:150%;color:#38942C'>
-                Media
-            </span>
-        </b>
-    </p>
-
-    <p class=MsoListParagraphCxSpFirst style='margin-top:6.0pt;margin-right:94.6pt;
-    margin-bottom:6.0pt;margin-left:72.0pt;text-indent:-18.0pt;line-height:150%'>
+    <h2 class="green-paragraph">
+        Media
+    </h2>
+    <p class="black-paragraph">
         <a href="https://youtu.be/973i2LbDX8U">
             Interview, in "Hasufim", University of Haifa, 2015
         </a>
-    </p>
-    <p class=MsoListParagraphCxSpFirst style='margin-top:6.0pt;margin-right:94.6pt;
-    margin-bottom:6.0pt;margin-left:72.0pt;text-indent:-18.0pt;line-height:150%'>
+        <br>
         <a href="http://people.csail.mit.edu/dannyf/Feldman_CVN_article.pdf">
             Article of Computer Vision News, Sept 2016
         </a>
     </p>
-</div>
 
-    <p class=MsoNormal style='margin-top:12.0pt;line-height:150%'>
-        <b>
-            <span style='font-size:18.0pt;line-height:150%;color:#38942C'>
-                Publications and Slides
-            </span>
-        </b>
-    </p>
-
-    <p class=MsoListParagraphCxSpFirst style='margin-top:6.0pt;margin-right:94.6pt;
-    margin-bottom:6.0pt;margin-left:72.0pt;text-indent:-18.0pt;
-    line-height:150%'>
+    <h2 class="green-paragraph">
+        Publications and Slides
+    </h2>
+    <p class="black-paragraph">
         Introduction to Coresets: Videos from the Machine Learning Summer School 2014 at CMU
     </p>
-
-    <p  style='margin-top:6.0pt;margin-right:94.6pt;
-    margin-bottom:6.0pt;margin-left:72.0pt;text-indent:-18.0pt;
-    line-height:150%'>
+    <p class="black-paragraph">
         Lecture <a href="https://www.youtube.com/watch?v=egHhDSTXy88">1</a>,
                 <a href="https://www.youtube.com/watch?v=0XxX8SyE7yI">2+3</a>,
                 <a href="https://www.youtube.com/watch?v=PGfWeG-na2g">4</a>,
@@ -479,484 +194,289 @@
     </p>
     <br>
 
+    <dl>
+        <dt>
+            <a href="https://arxiv.org/pdf/1901.00512.pdf">
+                Real-Time EEG Classification via Coresets for BCI Applications
+            </a>
+        </dt>
+        <dd>with Eitan Netzer, Alex Frid.</dd>
 
 
-    <!-- Real-Time EEG Classification via Coresets for BCI Applications -->
-    <p style='margin-top:6.0pt;margin-right:
-            94.6pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:-18.0pt;line-height:150%'>
-        <a href="https://arxiv.org/pdf/1901.00512.pdf">
-            Real-Time EEG Classification via Coresets for BCI Applications
-        </a>
-        <br>
-        <span style='font-family:"Garamond","serif"'>
-            with Eitan Netzer, Alex Frid.
-        </span>
-    </p>
-
-
-                <!-- Minimizing Sum of Non-Convex but Piecewise log-Lipschitz Functions using Coresets -->
-    <p style='margin-top:6.0pt;margin-right:
-		94.6pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:-18.0pt;line-height:150%'>
-		<a href="https://arxiv.org/pdf/1807.08446.pdf">
-            Minimizing Sum of Non-Convex but Piecewise log-Lipschitz Functions using Coresets
-        </a>
-        <br>
-        <span style='font-family:"Garamond","serif"'>
-            with Ibrahim Jubran.
-            <span style='font-size:11.0pt;line-height:150%;font-family:"Calibri","sans-serif";'>
-                <i>
-                    <a style='color:#E46C0A;' href="https://drive.google.com/file/d/19I6Jd6F8ET9386yahKx3Dgr6gBTuzYhJ/view">
-                        [Video]
-                    </a>
-                </i>
-                ,
-                <i>
-                    <a style='color:#E46C0A;' href="https://drive.google.com/file/d/1IkUmGok9qyUtHwLlo4J-DWVp40GJIpmG/view">
-                        [Presentation]
-                    </a>
-                </i>
-            </span>
-        </span>
-    </p>
-
-        <!-- Secure Search via Sketching for Homomorphic Encryption -->
-    <p  style='margin-top:6.0pt;margin-right:
-        94.6pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:-18.0pt;line-height:150%'>
-        <span style='color:#984807'>
-        <a href="https://eprint.iacr.org/2018/245">
-            <span class=SpellE>
-                Secure Search via Sketching for Homomorphic Encryption
-            </span></a><br>
-        </span>
-        <span style='font-family:"Garamond","serif"'>with Adi Akavia, Hayim Shaul
-            <br>
+        <dt>
+            <a href="https://arxiv.org/pdf/1807.08446.pdf">
+                Minimizing Sum of Non-Convex but Piecewise log-Lipschitz Functions using Coresets
+            </a>
+        </dt>
+        <dd>with Ibrahim Jubran.
             <i>
-                <span>
-                    25th ACM Conference on Computer and Communications Security 2018.
-                </span>
+                <a class="red" href="https://drive.google.com/file/d/19I6Jd6F8ET9386yahKx3Dgr6gBTuzYhJ/view">
+                    [Video]</a>,
+                <a class="red" href="https://drive.google.com/file/d/1IkUmGok9qyUtHwLlo4J-DWVp40GJIpmG/view">
+                    [Presentation]</a>
             </i>
-        </span>
-    </p>
+        </dd>
 
-                    <!-- Coresets For Monotonic Functions -->
-    <p  style='margin-top:6.0pt;margin-right:
-        94.6pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:-18.0pt;line-height:150%'>
-        <span style='color:#984807'>
-        <a href="https://arxiv.org/abs/1802.07382">
+
+        <dt>
+            <a href="https://eprint.iacr.org/2018/245">
+                Secure Search via Sketching for Homomorphic Encryption
+            </a>
+        </dt>
+        <dd>with Adi Akavia, Hayim Shaul</dd>
+        <dd><i>25th ACM Conference on Computer and Communications Security 2018.</i></dd>
+
+
+        <dt>
+            <a href="https://arxiv.org/abs/1802.07382">
                 Coresets For Monotonic Functions with Applications to Deep Learning
-        </a>
-        <br>
-        </span>
-        <span style='font-family:"Garamond","serif"'>
-            with Elad Tolochinsky, <i>Submitted.</i>
-        </span>
-    </p>
-
-                <!-- Quadcopter Tracks Quadcopter via Real Time Shape Fitting -->
-    <p  style='margin-top:6.0pt;margin-right:
-		94.6pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:-18.0pt;line-height:150%'>
-	<span style='color:#984807'>
-		<a href="http://people.csail.mit.edu/dannyf/index_files/papers/RealTimeShapeFitting.pdf"><span class=SpellE>
-            Quadcopter Tracks Quadcopter via Real Time Shape Fitting
-    </span></a><br></span>
-    <span style='font-family:"Garamond","serif"'>
-        with Dror Epstein.
-        <i><span style='font-size:11.0pt;line-height:150%;font-family:"Calibri","sans-serif";
-                    color:#E46C0A;'>
-            <a href="https://drive.google.com/open?id=0BzcX5edx0nNwMUdyVXNSZldvUUk">
-                <span style='color:#E46C0A;'>
-                    [Video]
-                </span>
             </a>
-        </span></i>
-    </span><br>
-    <i><span>
-        IEEE Robotics and Automation Letters (RA-L) 2017.
-    </span></i>
-    </p>
-    <br>
+        </dt>
+        <dd>with Elad Tolochinsky, <i>Submitted.</i></dd>
 
 
-                    <!-- Secure Search on the Cloud via Coresets and Sketches -->
-    <p  style='margin-top:6.0pt;margin-right:
-		94.6pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:-18.0pt;line-height:150%'><span style='color:#984807'>
-		<a href="https://arxiv.org/abs/1708.05811">
-			<span class=SpellE>
-                Secure Search on the Cloud via Coresets and Sketches
-            </span></a><br>
-	</span>
-    <span style='font-family:"Garamond","serif"'>with Adi Akavia, Hayim Shaul</span><br>
-
-
-    <p  style='margin-top:6.0pt;margin-right:
-		94.6pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:-18.0pt;line-height:150%'>
-	<span style='color:#984807'>
-		<a href="http://people.csail.mit.edu/dannyf/1703.08110.pdf">
-			Training Mixture Models at Scale via Coresets (Fuller version)
-        </a>
-	</span>
-    <br>
-    <span style='font-family:"Garamond","serif"'>
-        with Mario Lucic, Matthew Faulkner, Andreas Krause
-    </span>
-    <br>
-    <i>
-        <span style='color:black'>
-            Journal of Machine Learning (JMLR) 2017
-        </span>
-    </i>
-    </p>
-
-
-    <!-- Coresets for Vector Summarization with Applications to Network Graphs -->
-    <p  style='margin-top:6.0pt;margin-right:94.6pt;
-    margin-bottom:6.0pt;margin-left:72.0pt;text-indent:-18.0pt;
-    line-height:150%'>
-    <span style='color:#984807'>
-        <a href="http://people.csail.mit.edu/dannyf/FELDMAN_ICML_17.pdf">
-            Coresets for Vector Summarization with Applications to Network Graphs
-        </a>
-    </span>
-    <br>
-    <span style='font-family:"Garamond","serif"'>
-        with Sedat Ozer, and Daniela Rus
-    </span>
-    <br>
-    <i>
-        <span style='color:black'>
-            International Conference on Machine Learning (ICML) 2017
-        </span>
-    </i>
-    <br>
-    </p>
-
-
-    <p  style='margin-top:6.0pt;margin-right:94.6pt;
-    margin-bottom:6.0pt;margin-left:72.0pt;text-indent:-18.0pt;
-    line-height:150%'>
-    <span style='color:#984807'>
-        <a href="http://people.csail.mit.edu/dannyf/IPSN2017">
-            Coresets for Differentially Private K-Means Clustering and Applications to Privacy in Mobile Sensor Networks
-        </a>
-        <br>
-    </span>
-    <span style='font-family:"Garamond","serif"'>
-		with Ruihao Zhu, Chongyuan Xiang and Daniela Rus
-    </span>
-    <br>
-    <i>
-        <span style='color:black'>
-            ACM/IEEE Conf. on Information Processing in Sensor Networks (IPSN) 2017, to appear
-        </span>
-    </i>
-    </p>
-
-                <p  style='margin-top:6.0pt;margin-right:
-  94.6pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:
-  -18.0pt;line-height:150%'><span class=MsoHyperlink><a
-                        href="https://arxiv.org/abs/1612.00889">New Frameworks for Offline and Streaming Coreset Constructions</a>,<o:p></o:p></span>
-                </p>
-                <p  style='margin-top:6.0pt;margin-right:
-  94.6pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:
-  .6pt;line-height:150%'><span class=GramE><span style='font-family:"Garamond","serif"'>with Vladimir Braverman, Harry Lang
-                <p  style='margin-top:6.0pt;margin-right:
-  94.6pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:
-  -18.0pt;line-height:150%'><span class=MsoHyperlink><a
-                        href="http://people.csail.mit.edu/dannyf/NIPS2016-main.pdf">Dimensionality Reduction of Massive Sparse Datasets
-Using Coresets</a>,<o:p></o:p></span></p>
-                <p  style='margin-top:6.0pt;margin-right:
-  94.6pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:
-  .6pt;line-height:150%'><span class=GramE><span style='font-family:"Garamond","serif"'>with Mikhali Volkov, Daniela Rus, <a
-                        href="http://people.csail.mit.edu/dannyf/supp.pdf">(supplementary material)</a><br>
-  <i>Proc. 29th Conference on Neural Information Processing Systems (NIPS) 2016</i></span></p>
-                <p  style='margin-top:6.0pt;margin-right:
-  94.6pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:
-  -18.0pt;line-height:150%'><span class=MsoHyperlink><a
-                        href="http://arxiv.org/abs/1511.08990"><i>k</i>-Means for Streaming and
-  Distributed Big Sparse Data</a>,<o:p></o:p></span></p>
-                <p  style='margin-top:6.0pt;margin-right:
-  94.6pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:
-  .6pt;line-height:150%'><span class=GramE><span style='font-family:"Garamond","serif"'>with</span></span><span
-                        style='font-family:"Garamond","serif"'> <span class=SpellE>Artem</span>
-  Barger.<br>
-  <i>Proceedings of the 2016 SIAM International Conference on Data Mining (SDM'16).</i></span></p>
-                <p  style='margin-top:6.0pt;margin-right:
-  94.6pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:
-  -18.0pt;line-height:150%'><span class=MsoHyperlink><a
-                        href="http://people.csail.mit.edu/dannyf/Pose-Coreset_WAFR.pdf">Low-cost and Faster Tracking Systems Using Core-sets for Pose-Estimation</a>,<o:p></o:p></span>
-                </p>
-                <p  style='margin-top:6.0pt;margin-right:
-  94.6pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:
-  .6pt;line-height:150%'><span class=GramE><span style='font-family:"Garamond","serif"'>with</span></span><span
-                        style='font-family:"Garamond","serif"'> <span class=SpellE>Soliman</span>
-  Nasser and Ibrahim <span class=SpellE>Jobran</span>.</span><i><span
-                        style='font-size:11.0pt;line-height:150%;font-family:"Calibri","sans-serif";
-  color:black'> </span></i>
-                    <i><span
-                        style='font-size:11.0pt;line-height:150%;font-family:"Calibri","sans-serif";
-  color:#E46C0A;mso-themeshade:
-  191;mso-style-textfill-fill-themecolor:
-  accent6;;
-  '><a href="https://vimeo.com/154337055"><span
-                        style='color:#0000BF;'>[</span><span style='color:#E46C0A;'>Video</span>
-                        <span style='color:#0000BF;'>]</span></a></span></i>
-                    <i><span
-                        style='font-size:11.0pt;line-height:150%;font-family:"Calibri","sans-serif";
-  color:black'><o:p></o:p></span></i>
-                </p>
-
-                <p  style='margin-top:6.0pt;margin-right:
-  94.6pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:
-  -18.0pt;line-height:150%'><span class=MsoHyperlink><a
-                        href="http://dl.acm.org/citation.cfm?id=2814569"><span class=SpellE>iDiary</span>:
-  From GPS Signals to a Text-Searchable Diary,</a></span></p>
-                <p  style='margin-top:6.0pt;margin-right:
-  94.6pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:
-  .6pt;line-height:150%'><span style='font-family:"Garamond","serif"'>with
-  Andrew <span class=SpellE>Sugaya</span>, Cynthia Sung, and Daniela
-  <span class=SpellE>
-      Rus
-    </span>
-    ,
-</span>
-</p>
-<p  style='margin-top:6.0pt;margin-right:94.6pt;
-margin-bottom:6.0pt;margin-left:72.0pt;text-indent:.6pt;line-height:150%'>
-<i>
-    <span style='font-family:"Garamond","serif";
-    color:black'>
-    ACM Transactions on Sensor Networks, Volume I, Issue 4 (2015).
-</span>
-</i>
-</p>
-                <p  style='margin-top:6.0pt;margin-right:
-  94.6pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:
-  -18.0pt;line-height:150%'><span class=MsoHyperlink><a
-                        href="http://people.csail.mit.edu/mikhail/publications/volkov2015coresets.pdf"><span
-                        class=SpellE>Coresets</span> for Visual Summarization with Applications to
-  Loop Closure</a></span></p>
-
-
-<p  style='margin-top:6.0pt;margin-right:94.6pt;
-margin-bottom:6.0pt;margin-left:72.0pt;text-indent:.6pt;line-height:150%'>
-<span style='font-family:"Garamond","serif"'>
-    with G. Rossman, Dan Feldman, Mikhail V. Volkov and D. Rus,<br>
-    <i>
-        <span style='font-family:"Garamond","serif";color:black'>
-                IEEE International Conference on Robotics and Automation (ICRA) 2015.
-        </span>
-    </i>
-</span>
-</p>
-
-
-<p  style='margin-top:6.0pt;margin-right:
-  94.6pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:
-  -18.0pt;line-height:150%'><span class=MsoHyperlink><a
-                        href="http://people.csail.mit.edu/mikhail/publications/nasser2015fleye-abstract.pdf"><span
-                        class=SpellE>Fleye</span> on the Car: Big data Meets the Internet of Things</a>,<o:p></o:p></span>
-                </p>
-                <p  style='margin-top:6.0pt;margin-right:
-  94.6pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:
-  .6pt;line-height:150%'><span style='font-family:"Garamond","serif"'>with <span
-                        class=SpellE>Soliman</span> Nasser,&nbsp;Andrew Barry, Marek <span
-                        class=SpellE>Doniec</span>,&nbsp;Guy <span class=SpellE>Peled</span>,&nbsp;Guy
-  <span class=SpellE>Rosman</span>,&nbsp;<br>
-  Daniela <span class=SpellE>Rus</span>,&nbsp;and Mikhail <span class=SpellE>Volkov</span>.
-  <o:p></o:p></span></p>
-                <p  style='margin-top:6.0pt;margin-right:
-  94.6pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:
-  .6pt;line-height:150%'><i><span style='font-family:"Garamond","serif";
-  color:black'>ACM/IEEE Conf. on Information Processing in Sensor Networks
-  (IPSN) 2015.<o:p></o:p></span></i></p>
-                <p  style='margin-top:6.0pt;margin-right:
-  94.6pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:
-  -18.0pt;line-height:150%'><span class=MsoHyperlink><a
-                        href="https://www.openu.ac.il/lists/mediaserver_documents/personalsites/tamirtassa/cma.pdf">More
-  Constraints, Smaller <span class=SpellE>Coresets</span>: Constrained Matrix
-  Approximation of Sparse Big Data&nbsp;</a></span><span
-                        class=apple-converted-space><span style='mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:major-fareast;color:#0000CC'>&nbsp;</span></span><span
-                        style='color:#0000CC'><br>
-  </span><span style='font-family:"Garamond","serif"'>with <span class=SpellE>Tamir</span>
-  <span class=SpellE>Tassa</span>, <br>
-  <i><span style='color:black'>21st ACM SIGKDD Conference on Knowledge
-  Discovery and Data Mining (KDD) 2015<o:p></o:p></span></i></span></p>
-                <p  style='margin-top:6.0pt;margin-right:
-  94.6pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:
-  -18.0pt;line-height:150%'><span style='color:#984807'><a
-                        href="http://people.csail.mit.edu/dannyf/big/nips2014.pdf"><span
-                        class=SpellE>Coresets</span> for <i>k</i>-segmentation of streaming data</a><br>
-  </span><span style='font-family:"Garamond","serif"'>with G. <span
-                        class=SpellE>Rosman</span>, M. <span class=SpellE>Volkov</span>, J.W. Fisher
-  III, and D. <span class=SpellE>Rus</span><br>
-  <i><span style='color:black'>Proc. 27th Conference on Neural Information
-  Processing Systems (NIPS) 2014<o:p></o:p></span></i></span></p>
-                <p  style='margin-top:12.0pt;margin-right:
-  94.3pt;margin-bottom:6.0pt;margin-left:72.0pt;text-indent:
-  -18.0pt;line-height:150%'><span class=MsoHyperlink><span style='mso-fareast-font-family:
-  "Times New Roman";mso-fareast-theme-font:major-fareast'><a
-                        href="http://dl.acm.org/citation.cfm?id=2582114">Smallest enclosing ball for
-  probabilistic data<span style='mso-fareast-font-family:"Times New Roman"'>,</span></a></span>
-  </span><b><span style='font-family:"Garamond","serif";color:black'><br>
-  </span></b><span style='font-family:"Garamond","serif"'>with Alexander <span
-                        class=SpellE>Munteanu</span>,&nbsp;and Christian <span class=SpellE>Sohler</span><br>
-  <i><span style='color:black'>The 30<sup>th</sup> Annual Symposium on
-  Computational Geometry (<span class=SpellE>SoCG</span>) 2014<o:p></o:p></span></i></span></p>
-                <p class=MsoListParagraphCxSpLast style='margin-top:12.0pt;margin-right:94.3pt;
-  margin-bottom:6.0pt;margin-left:72.0pt;text-indent:-18.0pt;
-  line-height:150%'><span style='color:#0000CC'><a
-                        href="http://people.csail.mit.edu/dannyf/icra2014.pdf">Visual Precis
-  Generation using <span class=SpellE>Coresets</span></a>, <br>
-  </span><span style='font-family:"Garamond","serif";color:black'>with Rohan
-  Paul, Daniela <span class=SpellE>Rus</span> and Paul Newman.<br>
-  <i>IEEE International Conference on Robotics and Automation (ICRA) 2014<o:p></o:p></i></span></p>
-                <p class=MsoNormal style='margin-top:12.0pt;margin-right:-6.75pt;margin-bottom:
-  0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-18.0pt;line-height:
-  150%'><a href="icra2013.pdf">Big Data for Robots: Online HMM <span
-                        class=SpellE>Coresets</span> for Sensor Streams,</a><br>
-                    <span style='font-family:"Garamond","serif";color:black'>with Cathy Wu, Brian
-  Julian, Cynthia Sung, and Daniela Rus.<br>
-  <i>IEEE International Conference on Robotics and Automation (ICRA) 2013<o:p></o:p></i></span></p>
-                <p class=MsoNormal style='margin-top:12.0pt;margin-right:-6.75pt;margin-bottom:
-  0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-18.0pt;line-height:
-  150%'><span style='color:#0000CC'><a
-                        href="http://people.csail.mit.edu/dannyf/krobots.pdf">K-Robots Clustering of
-  Moving Sensors Using <span class=SpellE>Coresets</span></a>, </span><span
-                        class=MsoHyperlink><span style='color:#993300;text-decoration:none;
-  '><a
-                        href="http://people.csail.mit.edu/dannyf/krobots_slides.pptx"><span
-                        style='color:#993300;text-decoration:none;'>[Slides]</span></a></span></span><span
-                        style='color:#0000CC'><br>
-  </span><span style='font-family:"Garamond","serif";color:black'>with
-  Stephanie Gil and Daniela Rus.<br>
-  <i>IEEE International Conference on Robotics and Automation (ICRA) 2013 </i><o:p></o:p></span></p>
-                <p class=MsoListParagraphCxSpFirst style='margin-top:6.0pt;margin-right:0cm;
-  margin-bottom:0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%'><span class=MsoHyperlink><b><a
-                        href="http://people.csail.mit.edu/dannyf/idiary.pdf"><span class=SpellE><span
-                        class=GramE><span style='font-weight:normal'>iDiary</span></span></span><span
-                        style='font-weight:normal'>: From GPS Signals to a Text-Searchable Diary</span></a></b></span>,<b><span
-                        style='font-family:"Calibri","sans-serif";color:black'> <br>
-  </span></b><span style='font-family:"Garamond","serif";color:black'>with
-  Andrew <span class=SpellE>Sugaya</span>, Cynthia Sung, and Daniela Rus.</span><span
-                        style='font-family:"Calibri","sans-serif";color:black'><br>
-  </span><i><span style='font-family:"Garamond","serif";color:black'>The 11th
-  ACM Conference on Embedded Networked Sensor System</span> (<span
-                        class=SpellE>SenSys</span>) 2013</i><b><span style='font-size:14.0pt;
-  line-height:150%;font-family:"Calibri","sans-serif"'><o:p></o:p></span></b></p>
-                <p class=MsoListParagraphCxSpLast style='margin-top:6.0pt;margin-right:4.3pt;
-  margin-bottom:0cm;margin-left:71.1pt;margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%'><u><span style='color:#0000CC'><a
-                        href="JMIV.pdf">Learning Big (Image) Data via <span class=SpellE>Coresets</span>
-  for Dictionaries</a></span></u><span style='color:#0000CC'>,<br>
-  </span><span style='font-family:"Garamond","serif";color:black'>with Micha <span
-                        class=SpellE>Feigin</span>, and <span class=SpellE>Nir</span> <span
-                        class=SpellE>Sochen</span>.<o:p></o:p></span></p>
-                <p class=MsoNormal style='margin-top:0cm;margin-right:-6.75pt;margin-bottom:
-  0cm;margin-left:71.1pt;margin-bottom:.0001pt;line-height:150%'><i><span
-                        style='font-family:"Garamond","serif";color:black'>The International
-  Biomedical and Astronomical Signal Processing (BASP) Frontiers workshop,
-  2013, selected to<br>
-  The&nbsp; Journal of Mathematical Imaging and Vision (JMIV)<o:p></o:p></span></i></p>
-                <p class=MsoNormal style='margin-top:6.0pt;margin-right:4.3pt;margin-bottom:
-  0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-18.0pt;line-height:
-  150%'><span class=MsoHyperlink><b><span style='font-family:"Garamond","serif"'><a
-                        href="http://people.csail.mit.edu/dannyf/GIS_coreset.pdf"><span
-                        style='text-decoration:none;'>The&nbsp;Single&nbsp;Pixel&nbsp;GIS:
-  </span><span style='text-decoration:none;'><br>
-  Learning Big Data Signals from Tiny <span class=SpellE>Coresets</span>, </span><span
-                        style='font-family:"Times New Roman","serif";color:#993300;font-weight:normal;
-  text-decoration:none;'>[Slides]</span><span
-                        style='font-family:"Times New Roman","serif";text-decoration:none;'><br>
-  </span></a></span></b></span>
-
-  <span style='font-family:"Garamond","serif";
-  color:black'>with Cynthia Sung and Daniela Rus.
-  <br>
-
-  <i>Proc. 20<sup>th</sup> ACM&nbsp; International Conference on Advances in
-  Geographic Information Systems (SIGSPATIAL GIS) 2012</i></span></p>
-
-
-<p class=MsoNormal style='margin-top:6.0pt;margin-right:4.3pt;margin-bottom:
-0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-18.0pt;line-height:200%'>
-    <span class=MsoHyperlink>
-        <b><span style='font-family:"Garamond","serif"'>
-        <a href="http://arxiv.org/abs/1807.04518">
-            <span style='text-decoration:none;'>
-                Turning Big Data into Tiny Data:
-            </span>
-            <span style='text-decoration:none;'><br>
-                Constant-size Coresets for <i>k</i>-means, PCA and Projective Clustering,
-            </span>
+        <dt>
+            <a href="http://people.csail.mit.edu/dannyf/index_files/papers/RealTimeShapeFitting.pdf"><span class=SpellE>
+                Quadcopter Tracks Quadcopter via Real Time Shape Fitting</span>
             </a>
-        </span></b>
-    </span>
+        </dt>
+        <dd>with Dror Epstein.
+            <a class="red" href="https://drive.google.com/open?id=0BzcX5edx0nNwMUdyVXNSZldvUUk">
+                [Video]
+            </a>
+        </dd>
+        <dd><i>IEEE Robotics and Automation Letters (RA-L) 2017.</i></dd>
 
-    <br>
-    <span style='font-family:"Garamond","serif"; color:black'>
-        with Melanie Schmidt and Christian <span class=SpellE>Sohler</span>.
-        <br>
-        <i>Proc. 24<sup>th</sup> <span class=SpellE>Annu</span>. ACM&nbsp; <span
-          class=SpellE>Symp</span>. on Discrete Algorithms (SODA) 2013,<br>
-  and in the 4<sup>th</sup> Workshop on Massive Data Algorithms (MASSIVE) 2012</i></span></p>
-                <p class=MsoNormal style='margin-top:6.0pt;margin-right:4.3pt;margin-bottom:
-  0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-18.0pt'><span
-                        class=MsoHyperlink><b><span style='font-family:"Garamond","serif"'><a
-                        href="http://people.csail.mit.edu/dannyf/traj.pdf"><span style='text-decoration:
-  none;'>Trajectory Clustering for Motion Prediction, </span><span
-                        style='font-family:"Times New Roman","serif";color:windowtext;font-weight:
-  normal;text-decoration:none;'>[Slides]</span><span
-                        style='font-family:"Times New Roman","serif"'><br>
-  </span></a></span></b></span><span style='font-family:"Garamond","serif";
-  color:black'>with Cynthia Sung and Daniela Rus.</span><span style='font-size:
-  11.0pt;font-family:"NimbusRomNo9L-Regu","serif"'><br>
-  </span><i><span style='font-family:"Garamond","serif";color:black'><br>
-  IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS�12)
-  </span></i><span style='color:#E46C0A'><o:p></o:p></span></p>
-                <p class=MsoNormal style='margin-top:6.0pt;margin-right:4.3pt;margin-bottom:
-  0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-18.0pt'><span
-                        class=MsoHyperlink><b><span style='font-family:"Garamond","serif"'><a
-                        href="http://people.csail.mit.edu/dannyf/comm.pdf"><span style='text-decoration:
-  none;'>Communication Coverage for Independently Moving
-  Robots, </span><span style='font-family:"Times New Roman","serif";color:#993300;
-  font-weight:normal;text-decoration:none;'>[Slides]</span><span
-                        style='font-family:"Times New Roman","serif"'><br>
-  </span></a></span></b></span><span style='font-family:"Garamond","serif";
-  color:black'><br>
-  with Stephanie Gil and Daniela Rus.</span><span style='font-size:11.0pt;
-  font-family:"NimbusRomNo9L-Regu","serif"'><br>
-  </span><i><span style='font-family:"Garamond","serif";color:black'><br>
-  IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS�12)</span></i>
-</p>
+        <!-- Secure Search on the Cloud via Coresets and Sketches -->
+        <!-- might be duplicate -->
+        <!-- <dt>
+            <a href="https://arxiv.org/abs/1708.05811">
+                    Secure Search on the Cloud via Coresets and Sketches
+            </a>
+            <dd>with Adi Akavia, Hayim Shaul</dd>
+        </dt> -->
 
-<p class=MsoListParagraph style='margin-top:6.0pt;margin-right:4.3pt;margin-bottom:0cm;margin-left:72.0pt;
-margin-bottom:.0001pt;text-indent:-18.0pt'>
-<span class=MsoHyperlink>
-    <b>
-        <span style='font-family:"Garamond","serif"'>
+
+        <dt>
+            <a href="http://people.csail.mit.edu/dannyf/1703.08110.pdf">
+                Training Mixture Models at Scale via Coresets (Fuller version)
+            </a>
+        </dt>
+        <dd>with Mario Lucic, Matthew Faulkner, Andreas Krause</dd>
+        <dd><i>Journal of Machine Learning (JMLR) 2017</i></dd>
+
+
+        <dt>
+            <a href="http://people.csail.mit.edu/dannyf/FELDMAN_ICML_17.pdf">
+                Coresets for Vector Summarization with Applications to Network Graphs
+            </a>
+        </dt>
+        <dd>with Sedat Ozer, and Daniela Rus</dd>
+        <dd><i>International Conference on Machine Learning (ICML) 2017</i></dd>
+
+
+        <dt>
+            <a href="http://people.csail.mit.edu/dannyf/IPSN2017">
+                Coresets for Differentially Private K-Means Clustering and Applications to Privacy in Mobile Sensor Networks
+            </a>
+        </dt>
+        <dd>with Ruihao Zhu, Chongyuan Xiang and Daniela Rus</dd>
+        <dd><i>ACM/IEEE Conf. on Information Processing in Sensor Networks (IPSN) 2017, to appear</i></dd>
+
+
+        <dt>
+            <a href="https://arxiv.org/abs/1612.00889">
+                New Frameworks for Offline and Streaming Coreset Constructions
+            </a>
+        </dt>
+        <dd>with Vladimir Braverman, Harry Lang</dd>
+
+
+        <dt>
+            <a href="http://people.csail.mit.edu/dannyf/NIPS2016-main.pdf">
+                Dimensionality Reduction of Massive Sparse Datasets Using Coresets
+            </a>
+        </dt>
+        <dd>with Mikhali Volkov, Daniela Rus, <a href="http://people.csail.mit.edu/dannyf/supp.pdf">(supplementary material)</a></dd>
+        <dd><i>Proc. 29th Conference on Neural Information Processing Systems (NIPS) 2016</i></dd>
+
+
+        <dt>
+            <a href="http://arxiv.org/abs/1511.08990">
+                <i>k</i>-Means for Streaming and Distributed Big Sparse Data
+            </a>
+        </dt>
+        <dd>with Artem Barger</dd>
+        <dd><i>Proceedings of the 2016 SIAM International Conference on Data Mining (SDM'16)</i></dd>
+
+
+        <dt>
+            <a href="http://people.csail.mit.edu/dannyf/Pose-Coreset_WAFR.pdf">
+                Low-cost and Faster Tracking Systems Using Core-sets for Pose-Estimation
+            </a>
+        </dt>
+        <dd>with Soliman Nasser and Ibrahim Jobran <a class="red" href="https://vimeo.com/154337055">[Video]</a></dd>
+
+
+        <dt>
+            <a href="http://dl.acm.org/citation.cfm?id=2814569">
+                iDiary: From GPS Signals to a Text-Searchable Diary
+            </a>
+        </dt>
+        <dd>with Andrew Sugaya, Cynthia Sung, and Daniela Rus</dd>
+        <dd><i>ACM Transactions on Sensor Networks, Volume I, Issue 4 (2015).</i></dd>
+
+
+        <dt>
+            <a href="http://people.csail.mit.edu/mikhail/publications/volkov2015coresets.pdf"><span class=SpellE>Coresets</span>
+                for Visual Summarization with Applications to
+                Loop Closure</a>
+        </dt>
+        <dd>with G. Rossman, Dan Feldman, Mikhail V. Volkov and D. Rus</dd>
+        <dd><i>IEEE International Conference on Robotics and Automation (ICRA) 2015.</i></dd>
+
+
+        <dt>
+            <a href="http://people.csail.mit.edu/mikhail/publications/nasser2015fleye-abstract.pdf">
+                Fleye on the Car: Big data Meets the Internet of Things
+            </a>
+        </dt>
+        <dd>with Soliman Nasser, Andrew Barry, Marek Doniec, Guy Peled, Guy Rosman, Daniela Rus,
+             and Mikhail Volkov.</dd>
+        <dd><i>ACM/IEEE Conf. on Information Processing in Sensor Networks (IPSN) 2015.</i></dd>
+
+
+        <dt>
+            <a href="https://www.openu.ac.il/lists/mediaserver_documents/personalsites/tamirtassa/cma.pdf">
+                More Constraints, Smaller Coresets: Constrained Matrix Approximation of Sparse Big Data
+            </a>
+        </dt>
+        <dd>with Tamir Tassa</dd>
+        <dd><i>21st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2015</i></dd>
+
+
+        <dt>
+            <a href="http://people.csail.mit.edu/dannyf/big/nips2014.pdf">
+                Coresets for <i>k</i>-segmentation of streaming data
+            </a>
+        </dt>
+        <dd>with G. Rosman, M. Volkov, J.W. Fisher III, and D. Rus</dd>
+        <dd><i>Proc. 27th Conference on Neural Information Processing Systems (NIPS) 2014</i></dd>
+
+
+        <dt>
+            <a href="http://dl.acm.org/citation.cfm?id=2582114">
+                Smallest enclosing ball for probabilistic data
+            </a>
+        </dt>
+        <dd>with Alexander Munteanu, and Christian Sohler</dd>
+        <dd><i>The 30<sup>th</sup> Annual Symposium on Computational Geometry (SoCG) 2014</i></dd>
+
+
+        <dt>
+            <a href="http://people.csail.mit.edu/dannyf/icra2014.pdf">
+                Visual Precis Generation using Coresets
+            </a>
+        </dt>
+        <dd>with Rohan Paul, Daniela Rus and Paul Newman.</dd>
+        <dd><i>IEEE International Conference on Robotics and Automation (ICRA) 2014</i></dd>
+
+
+        <dt>
+            <a href="icra2013.pdf">
+                Big Data for Robots: Online HMM Coresets for Sensor Streams
+            </a>
+        </dt>
+        <dd>with Cathy Wu, Brian Julian, Cynthia Sung, and Daniela Rus</dd>
+        <dd><i>IEEE International Conference on Robotics and Automation (ICRA) 2013</i></dd>
+
+
+        <dt>
+            <a href="http://people.csail.mit.edu/dannyf/krobots.pdf">
+                K-Robots Clustering of Moving Sensors Using Coresets
+            </a>
+            , <a class="red" href="http://people.csail.mit.edu/dannyf/krobots_slides.pptx">[Slides]</a>
+        </dt>
+        <dd>with Stephanie Gil and Daniela Rus</dd>
+        <dd><i>IEEE International Conference on Robotics and Automation (ICRA) 2013</i></dd>
+
+
+        <dt>
+            <a href="http://people.csail.mit.edu/dannyf/idiary.pdf">
+                iDiary: From GPS Signals to a Text-Searchable iDiary
+            </a>
+        </dt>
+        <dd>with Andrew Sugaya, Cynthia Sung, and Daniela Rus</dd>
+        <dd><i>The 11<sup>th</sup> ACM Conference on Embedded Networked Sensor System (SenSys) 2013</i></dd>
+
+
+        <dt>
+            <a href="http://people.csail.mit.edu/dannyf/JMIV.pdf">
+                Learning Big (Image) Data via Coresets for Dictionaries
+            </a>
+        </dt>
+        <dd>with Micha Feigin, and Nir Sochen</dd>
+        <dd><i>The International Biomedical and Astronomical Signal Processing (BASP) Frontiers workshop, 2013, selected to
+        The Journal of Mathematical Imaging and Vision (JMIV)</i></dd>
+
+
+        <dt>
+            <a href="http://people.csail.mit.edu/dannyf/GIS_coreset.pdf">
+                The Single Pixel GIS: Learning Big Data Signals from Tiny Coresets
+            </a>
+        </dt>
+        <dd>with Cynthia Sung and Daniela Rus</dd>
+        <dd><i>Proc. 20<sup>th</sup> ACM International Conference on Advances in Geographic Information Systems (SIGSPATIAL GIS) 2012</i></dd>
+
+
+        <dt>
+            <a href="http://arxiv.org/abs/1807.04518">
+                Turning Big Data into Tiny Data:<br>
+                Constant-size Coresets for <i>k</i>-means, PCA and Projective Clustering
+            </a>
+        </dt>
+        <dd>with Melanie Schmidt and Christian Sohler</dd>
+        <dd><i>Proc. 24<sup>th</sup> Annu. ACM Symp. on Discrete Algorithms (SODA) 2013,</i></dd>
+        <dd><i>and in the 4<sup>th</sup> Workshop on Massive Data Algorithms (MASSIVE) 2012</i></dd>
+
+
+        <dt>
+            <a href="http://people.csail.mit.edu/dannyf/traj.pdf">
+                Trajectory Clustering for Motion Prediction
+            </a>
+        </dt>
+        <dd>with Cynthia Sung and Daniela Rus</dd>
+        <dd><i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2012</i></dd>
+
+
+        <dt>
+            <a href="http://people.csail.mit.edu/dannyf/comm.pdf">
+                Communication Coverage for Independently Moving Robots
+            </a>
+        </dt>
+        <dd>with Stephanie Gil and Daniela Rus</dd>
+        <dd><i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2012</i></dd>
+
+
+        <dt>
             <a href="http://people.csail.mit.edu/dannyf/ipsn12.pdf">
-                <span style='text-decoration:none;'>
-                    An Effective Coreset Compression Algorithm for Large Scale Sensor Networks,
-                </span>
-                <span style='font-family:"Times New Roman","serif";color:#993300;font-weight:normal;text-decoration:none;'>
-                    [Slides]
-                </span>
+                An Effective Coreset Compression Algorithm for Large Scale Sensor Networks,
             </a>
-        </span>
-    </b>
-</span>
-<br>
-<span style='font-family:"Garamond","serif";color:black'>
-    with Andrew Sugaya and Daniela Rus.
-</span>
-<br>
-<i>
-    <span style='font-family:"Garamond","serif";color:black'>
-        Proc. 11<sup>th</sup> ACM/IEEE Conf. on Information Processing in Sensor Networks (IPSN) 2012
-    </span>
-</i>
+        </dt>
+        <dd>with Andrew Sugaya and Daniela Rus</dd>
+        <dd><i>Proc. 11<sup>th</sup> ACM/IEEE Conf. on Information Processing in Sensor Networks (IPSN) 2012</i></dd>
 
-</p>
+
+    </dl>
+
+
+
+
+
+
+
+
+
 
 
 <p class=MsoNormal style='margin-top:6.0pt;margin-right:4.3pt;margin-bottom:0cm;
@@ -1230,5 +750,13 @@ margin-left:62.1pt;margin-bottom:.0001pt;text-indent:-18.0pt;line-height:150%'>
 </div>
 
 </body>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133412001-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
+        gtag('config', 'UA-133412001-1');
+    </script>
 </html>
