@@ -13,7 +13,6 @@ setVisibilityForPage('about_nav');
 
 let top_nav = document.querySelector('.topnav');
 top_nav.addEventListener('click', (e) => {
-    console.log('nav choose id: ' + e.target.id);
     setVisibilityForPage(e.target.id);
 });
 
