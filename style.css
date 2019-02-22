@@ -237,3 +237,7 @@ html {
 #myBtn:hover {
   background-color: #555;
 }
+
+.thesis .publications {
+    float: left;
+}
