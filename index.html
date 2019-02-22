@@ -2,487 +2,530 @@
 <html>
 <head>
     <title>Dan Feldman</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
     <meta charset="utf-8">
+    <meta name="author" content="George Kesaev">
+    <meta name="description" content="Director of the Robotics and Big Data Lab,
+        and Senior Lecturer at the Computer Science Department University of Haifa">
     <link rel="stylesheet" href="style.css" type="text/css">
-    <meta name="keywords" content="Danny Dan Feldman MIT CSAIL University of Haifa Coreset Bid Data">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127105132-1"></script>
+    <script async src="/js/main.js"></script>
 
+    <meta name="keywords" content="Danny Dan Feldman MIT CSAIL University of Haifa Coreset Bid Data">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body lang=EN-US link=blue vlink=blue>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div class="topnav">
+        <a class="active" href="#about" id="about_nav">About Danny</a>
+        <a href="#research" id="research_nav">Research</a>
+        <a href="#resume" id="resume_nav">Resume</a>
+        <a href="#group" id="group_nav">Group</a>
+        <a href="#media" id="media_nav">Media</a>
+    </div>
 
-    <header>
+    <div class="page" id="about_page">
+        <header>
             <img class="avatar-image" src="./images/danny_avatar.jpg" alt="Dan Feldman">
 
-
-                <h1>
-                    Dan Feldman
-                </h1>
-                <hr class="small_line">
-                <p class='black-paragraph'>
-                    Director of the <a href="http://sites.hevra.haifa.ac.il/bdrl/" rel="noopener noreferrer" target="_blank">Robotics and Big Data Lab,                </a>
-                    <br>
-                    and Senior Lecturer at the <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/" rel="noopener noreferrer" target="_blank">Computer Science Department</a>
-                    <br>
-                    University of Haifa,
-                </p>
-
+            <h1>Dan Feldman</h1>
+            <hr class="small_line">
+            <span class="page-subheading">Director of the Robotics and Big Data Lab,
+            and Senior Lecturer at the Computer Science Department
+            University of Haifa</span>
+            <div class='black-paragraph'>
                 <p>
-                    <i>
-                        e-mail:
-                        <a href="mailto:dannyf.post@gmail.com">
-                            dannyf.post@gmail.com
-                        </a>
-                    </i>
+                    e-mail: <a href="mailto:dannyf.post@gmail.com">dannyf.post@gmail.com</a>
                 </p>
+                <p>
+                    Our lab website: <a href="http://sites.hevra.haifa.ac.il/bdrl/" rel="noopener noreferrer" target="_blank">
+                        Robotics &amp; Big Data Lab
+                    </a>
+                </p>
+            </div>
+        </header>
 
-                <hr size=3>
+        <h2 class="green-paragraph">
+            Current research
+        </h2>
+        <p class="black-paragraph">
+            Machine learning of Big Data, Internet of Things, Swarm robotics, and 3D-cameras.<br>
+            I am especially excited about reducing the gap between theoretical and practical algorithms, using my experience in
+            the industry and academy.
+        </p>
 
-                <p><b>
-                    <span style='font-size:14.0pt'>
-                        Check out the new
-                        <a href="http://sites.hevra.haifa.ac.il/bdrl/" rel="noopener noreferrer" target="_blank">
-                            Robotics &amp; Big Data Lab
-                        </a>
-                        page of my group !
-                    </span>
-                </b></p>
-    </header>
-
-
-    <h2 class="green-paragraph">
-        Current research
-    </h2>
-    <p class="black-paragraph">
-        Machine learning of Big Data, Internet of Things, Swarm robotics, and 3D-cameras.<br>
-        I am especially excited about reducing the gap between theoretical and practical algorithms, using my experience in the industry and academy.
-    </p>
-
-    <h2 class="green-paragraph">
-        Main technique
-    </h2>
-    <p class="black-paragraph">
+        <h2 class="green-paragraph">
+            Main technique
+        </h2>
+        <p class="black-paragraph">
             Core-sets: Semantic compression of data sets into small sets that provably approximate
-             the original data for a given problem. Using merge-reduce (e.g. Spark) the small sets
-             can then be used for solving hard machine learning problems in parallel (on the cloud/network),
+            the original data for a given problem. Using merge-reduce (e.g. Spark) the small sets
+            can then be used for solving hard machine learning problems in parallel (on the cloud/network),
             real-time and on Big streaming data.
-    </p>
+        </p>
 
-    <h2 class="green-paragraph">
-        Media
-    </h2>
-    <p class="black-paragraph">
-        <a href="https://youtu.be/973i2LbDX8U" rel="noopener noreferrer" target="_blank">
-            Interview, in "Hasufim", University of Haifa, 2015
-        </a>
-        <br>
-        <a href="http://people.csail.mit.edu/dannyf/Feldman_CVN_article.pdf" rel="noopener noreferrer" target="_blank">
-            Article of Computer Vision News, Sept 2016
-        </a>
-    </p>
+    </div>
 
-    <h2 class="green-paragraph">
-        Publications and Slides
-    </h2>
-    <p class="black-paragraph">
-        Introduction to Coresets: Videos from the Machine Learning Summer School 2014 at CMU
-    </p>
-    <p class="black-paragraph">
-        Lecture <a href="https://www.youtube.com/watch?v=egHhDSTXy88" rel="noopener noreferrer" target="_blank">1</a>,
-                <a href="https://www.youtube.com/watch?v=0XxX8SyE7yI" rel="noopener noreferrer" target="_blank">2+3</a>,
-                <a href="https://www.youtube.com/watch?v=PGfWeG-na2g" rel="noopener noreferrer" target="_blank">4</a>,
-                <a href="https://www.youtube.com/watch?v=hkbH72EumAc" rel="noopener noreferrer" target="_blank">5</a>
-    </p>
-    <br>
+    <div class="page row" id="research_page">
+        <div class="col-3 menu">
+            <ul>
+                <li onclick="smoothScroll(document.getElementById('intro'))">Introduction to Core-sets</li>
+                <li onclick="smoothScroll(document.getElementById('publications'))">Publications</li>
+                <li onclick="smoothScroll(document.getElementById('thesis'))">Thesis</li>
+            </ul>
+        </div>
 
-    <!-- List of publications-->
-    <!-- To add new publication copy and fill the following <dt></dt> inside of <d></d>
+        <div class="col-9">
+            <h2>
+                Introduction to Coresets
+            </h2>
+            <p class="black-paragraph">
+                Videos from the Machine Learning Summer School 2014 at CMU
+            </p>
+            <ol class="col-9">
+                <li class="video_list">Lecture 1: <br>
+                    <iframe width="224" height="130" src="https://www.youtube.com/embed/egHhDSTXy88" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </li>
+                <li class="video_list">Lectures 2 and 3: <br>
+                    <iframe width="224" height="130" src="https://www.youtube.com/embed/0XxX8SyE7yI" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </li>
+                <li class="video_list">Lecture 4: <br>
+                    <iframe width="224" height="130" src="https://www.youtube.com/embed/PGfWeG-na2g" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </li>
+                <li class="video_list">Lecture 5: <br>
+                    <iframe width="224" height="130" src="https://www.youtube.com/embed/hkbH72EumAc" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </li>
+            </ol>
+
+            <h2 id="publications">
+                Publications and Slides
+            </h2>
+        <!-- List of publications-->
+        <!-- To add new publication copy and fill the following <dt></dt> inside of <d></d>
+                <dt>
+                    <a href="link.to.pdf.file">
+                        Title of the paper
+                    </a>
+                </dt>
+                <dd>names of additional submitters</dd>
+                <dd class="details">name of the journal of conference etc.</dd>
+        -->
+        <dl>
             <dt>
-                <a href="link.to.pdf.file">
-                    Title of the paper
+                <a href="https://arxiv.org/pdf/1901.00512.pdf">
+                    Real-Time EEG Classification via Coresets for BCI Applications
                 </a>
             </dt>
-            <dd>names of additional submitters</dd>
-            <dd class="details">name of the journal of conference etc.</dd>
-     -->
-    <dl>
-        <dt>
-            <a href="https://arxiv.org/pdf/1901.00512.pdf">
-                Real-Time EEG Classification via Coresets for BCI Applications
-            </a>
-        </dt>
-        <dd>with Eitan Netzer, Alex Frid.</dd>
+            <dd>with Eitan Netzer, Alex Frid.</dd>
 
 
-        <dt>
-            <a href="https://arxiv.org/pdf/1807.08446.pdf">
-                Minimizing Sum of Non-Convex but Piecewise log-Lipschitz Functions using Coresets
-            </a>
-        </dt>
-        <dd>with Ibrahim Jubran.
-            <i>
-                <a class="red" href="https://drive.google.com/file/d/19I6Jd6F8ET9386yahKx3Dgr6gBTuzYhJ/view">
-                    [Video]</a>,
-                <a class="red" href="https://drive.google.com/file/d/1IkUmGok9qyUtHwLlo4J-DWVp40GJIpmG/view">
-                    [Presentation]</a>
-            </i>
-        </dd>
+            <dt>
+                <a href="https://arxiv.org/pdf/1807.08446.pdf">
+                    Minimizing Sum of Non-Convex but Piecewise log-Lipschitz Functions using Coresets
+                </a>
+            </dt>
+            <dd>with Ibrahim Jubran.
+                <i>
+                    <a class="red" href="https://drive.google.com/file/d/19I6Jd6F8ET9386yahKx3Dgr6gBTuzYhJ/view">
+                        [Video]</a>,
+                    <a class="red" href="https://drive.google.com/file/d/1IkUmGok9qyUtHwLlo4J-DWVp40GJIpmG/view">
+                        [Presentation]</a>
+                </i>
+            </dd>
 
 
-        <dt>
-            <a href="https://eprint.iacr.org/2018/245">
-                Secure Search via Sketching for Homomorphic Encryption
-            </a>
-        </dt>
-        <dd>with Adi Akavia, Hayim Shaul</dd>
-        <dd class="details">25th ACM Conference on Computer and Communications Security 2018.</dd>
-
-
-        <dt>
-            <a href="https://arxiv.org/abs/1802.07382">
-                Coresets For Monotonic Functions with Applications to Deep Learning
-            </a>
-        </dt>
-        <dd>with Elad Tolochinsky, <i>Submitted.</i></dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/index_files/papers/RealTimeShapeFitting.pdf"><span class=SpellE>
-                Quadcopter Tracks Quadcopter via Real Time Shape Fitting</span>
-            </a>
-        </dt>
-        <dd>with Dror Epstein.
-            <a class="red" href="https://drive.google.com/open?id=0BzcX5edx0nNwMUdyVXNSZldvUUk">
-                [Video]
-            </a>
-        </dd>
-        <dd class="details">IEEE Robotics and Automation Letters (RA-L) 2017</dd>
-
-        <!-- Secure Search on the Cloud via Coresets and Sketches -->
-        <dt>
-            <a href="https://arxiv.org/abs/1708.05811">
-                    Secure Search on the Cloud via Coresets and Sketches
-            </a>
+            <dt>
+                <a href="https://eprint.iacr.org/2018/245">
+                    Secure Search via Sketching for Homomorphic Encryption
+                </a>
+            </dt>
             <dd>with Adi Akavia, Hayim Shaul</dd>
-        </dt>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/1703.08110.pdf">
-                Training Mixture Models at Scale via Coresets (Fuller version)
-            </a>
-        </dt>
-        <dd>with Mario Lucic, Matthew Faulkner, Andreas Krause</dd>
-        <dd class="details">Journal of Machine Learning (JMLR) 2017</dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/FELDMAN_ICML_17.pdf">
-                Coresets for Vector Summarization with Applications to Network Graphs
-            </a>
-        </dt>
-        <dd>with Sedat Ozer, and Daniela Rus</dd>
-        <dd class="details">International Conference on Machine Learning (ICML) 2017</dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/IPSN2017">
-                Coresets for Differentially Private K-Means Clustering and Applications to Privacy in Mobile Sensor Networks
-            </a>
-        </dt>
-        <dd>with Ruihao Zhu, Chongyuan Xiang and Daniela Rus</dd>
-        <dd class="details">ACM/IEEE Conf. on Information Processing in Sensor Networks (IPSN) 2017, to appear</dd>
-
-
-        <dt>
-            <a href="https://arxiv.org/abs/1612.00889">
-                New Frameworks for Offline and Streaming Coreset Constructions
-            </a>
-        </dt>
-        <dd>with Vladimir Braverman, Harry Lang</dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/NIPS2016-main.pdf">
-                Dimensionality Reduction of Massive Sparse Datasets Using Coresets
-            </a>
-        </dt>
-        <dd>with Mikhali Volkov, Daniela Rus, <a href="http://people.csail.mit.edu/dannyf/supp.pdf">(supplementary material)</a></dd>
-        <dd class="details">Proc. 29th Conference on Neural Information Processing Systems (NIPS) 2016</dd>
-
-
-        <dt>
-            <a href="http://arxiv.org/abs/1511.08990">
-                <i>k</i>-Means for Streaming and Distributed Big Sparse Data
-            </a>
-        </dt>
-        <dd>with Artem Barger</dd>
-        <dd class="details">Proceedings of the 2016 SIAM International Conference on Data Mining (SDM) 2016</dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/Pose-Coreset_WAFR.pdf">
-                Low-cost and Faster Tracking Systems Using Core-sets for Pose-Estimation
-            </a>
-        </dt>
-        <dd>with Soliman Nasser and Ibrahim Jobran <a class="red" href="https://vimeo.com/154337055">[Video]</a></dd>
-
-
-        <dt>
-            <a href="http://dl.acm.org/citation.cfm?id=2814569">
-                iDiary: From GPS Signals to a Text-Searchable Diary
-            </a>
-        </dt>
-        <dd>with Andrew Sugaya, Cynthia Sung, and Daniela Rus</dd>
-        <dd class="details">ACM Transactions on Sensor Networks, Volume I, Issue 4 2015</dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/mikhail/publications/volkov2015coresets.pdf"><span class=SpellE>Coresets</span>
-                for Visual Summarization with Applications to
-                Loop Closure</a>
-        </dt>
-        <dd>with G. Rossman, Dan Feldman, Mikhail V. Volkov and D. Rus</dd>
-        <dd class="details">IEEE International Conference on Robotics and Automation (ICRA) 2015</dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/mikhail/publications/nasser2015fleye-abstract.pdf">
-                Fleye on the Car: Big data Meets the Internet of Things
-            </a>
-        </dt>
-        <dd>with Soliman Nasser, Andrew Barry, Marek Doniec, Guy Peled, Guy Rosman, Daniela Rus,
-             and Mikhail Volkov.</dd>
-        <dd class="details">ACM/IEEE Conf. on Information Processing in Sensor Networks (IPSN) 2015</dd>
-
-
-        <dt>
-            <a href="https://www.openu.ac.il/lists/mediaserver_documents/personalsites/tamirtassa/cma.pdf">
-                More Constraints, Smaller Coresets: Constrained Matrix Approximation of Sparse Big Data
-            </a>
-        </dt>
-        <dd>with Tamir Tassa</dd>
-        <dd class="details">21st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2015</dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/big/nips2014.pdf">
-                Coresets for <i>k</i>-segmentation of streaming data
-            </a>
-        </dt>
-        <dd>with G. Rosman, M. Volkov, J.W. Fisher III, and D. Rus</dd>
-        <dd class="details">Proc. 27th Conference on Neural Information Processing Systems (NIPS) 2014</dd>
-
-
-        <dt>
-            <a href="http://dl.acm.org/citation.cfm?id=2582114">
-                Smallest enclosing ball for probabilistic data
-            </a>
-        </dt>
-        <dd>with Alexander Munteanu, and Christian Sohler</dd>
-        <dd class="details">The 30<sup>th</sup> Annual Symposium on Computational Geometry (SoCG) 2014</dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/icra2014.pdf">
-                Visual Precis Generation using Coresets
-            </a>
-        </dt>
-        <dd>with Rohan Paul, Daniela Rus and Paul Newman.</dd>
-        <dd class="details">IEEE International Conference on Robotics and Automation (ICRA) 2014</dd>
-
-
-        <dt>
-            <a href="icra2013.pdf">
-                Big Data for Robots: Online HMM Coresets for Sensor Streams
-            </a>
-        </dt>
-        <dd>with Cathy Wu, Brian Julian, Cynthia Sung, and Daniela Rus</dd>
-        <dd class="details">IEEE International Conference on Robotics and Automation (ICRA) 2013</dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/krobots.pdf">
-                K-Robots Clustering of Moving Sensors Using Coresets
-            </a>
-            , <a class="red" href="http://people.csail.mit.edu/dannyf/krobots_slides.pptx">[Slides]</a>
-        </dt>
-        <dd>with Stephanie Gil and Daniela Rus</dd>
-        <dd class="details">IEEE International Conference on Robotics and Automation (ICRA) 2013</dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/idiary.pdf">
-                iDiary: From GPS Signals to a Text-Searchable iDiary
-            </a>
-        </dt>
-        <dd>with Andrew Sugaya, Cynthia Sung, and Daniela Rus</dd>
-        <dd class="details">The 11<sup>th</sup> ACM Conference on Embedded Networked Sensor System (SenSys) 2013</dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/JMIV.pdf">
-                Learning Big (Image) Data via Coresets for Dictionaries
-            </a>
-        </dt>
-        <dd>with Micha Feigin, and Nir Sochen</dd>
-        <dd class="details">The International Biomedical and Astronomical Signal Processing (BASP) Frontiers workshop, 2013, selected to
-        The Journal of Mathematical Imaging and Vision (JMIV)</dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/GIS_coreset.pdf">
-                The Single Pixel GIS: Learning Big Data Signals from Tiny Coresets
-            </a>
-        </dt>
-        <dd>with Cynthia Sung and Daniela Rus</dd>
-        <dd class="details">Proc. 20<sup>th</sup> ACM International Conference on Advances in Geographic Information Systems (SIGSPATIAL GIS) 2012</dd>
-
-
-        <dt>
-            <a href="http://arxiv.org/abs/1807.04518">
-                Turning Big Data into Tiny Data:<br>
-                Constant-size Coresets for <i>k</i>-means, PCA and Projective Clustering
-            </a>
-        </dt>
-        <dd>with Melanie Schmidt and Christian Sohler</dd>
-        <dd class="details">Proc. 24<sup>th</sup> Annu. ACM Symp. on Discrete Algorithms (SODA) 2013,</dd>
-        <dd class="details">and in the 4<sup>th</sup> Workshop on Massive Data Algorithms (MASSIVE) 2012</dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/traj.pdf">
-                Trajectory Clustering for Motion Prediction
-            </a>
-        </dt>
-        <dd>with Cynthia Sung and Daniela Rus</dd>
-        <dd class="details">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2012</dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/comm.pdf">
-                Communication Coverage for Independently Moving Robots
-            </a>
-        </dt>
-        <dd>with Stephanie Gil and Daniela Rus</dd>
-        <dd class="details">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2012</dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/ipsn12.pdf">
-                An Effective Coreset Compression Algorithm for Large Scale Sensor Networks,
-            </a>
-        </dt>
-        <dd>with Andrew Sugaya and Daniela Rus</dd>
-        <dd class="details">Proc. 11<sup>th</sup> ACM/IEEE Conf. on Information Processing in Sensor Networks (IPSN) 2012</dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/outliers.pdf">
-                Data Reduction for Weighted and Outlier-resistant Clustering,
-            </a> <a class="red" href="http://people.csail.mit.edu/dannyf/soda12.ppt">[Slides]</a>
-        </dt>
-        <dd>with Leonard J. Schulman.</dd>
-        <dd class="details">Proc. 23<sup>th</sup> Annu. ACM Symp. on Discrete Algorithms (SODA) 2012</dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/nips11.pdf">
-                Scalable Training of Mixture Models via Coresets
-            </a> <a class="red" href="http://people.csail.mit.edu/dannyf/nips11.pptx">[Slides]</a>
-        </dt>
-        <dd>with Andreas Krause and Matthew Faulkner.</dd>
-        <dd class="details">Proc. 25th Conference on Neural Information Processing Systems (NIPS) 2011</dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/stoc11.pdf">
-                A Unified Framework for Approximating and Clustering Data
-            </a>
-        </dt>
-        <dd>with Michael Langberg</dd>
-        <dd class="details">Proc. 43st Annu. ACM Symposium on Theory of Computing (STOC) 2011
-            <a class="red" href="http://arxiv.org/abs/1106.1379">
-                [Fuller Version]
-            </a>
-        </dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/High_Definition_Low_Space.pdf">
-                From High Definition Image to Low Space Optimization
-            </a>
-        </dt>
-        <dd>with Micha Feigin and Nir Sochen</dd>
-        <dd class="details">Scale Space and Variational Methods in Computer Vision (SSVM) 2011</dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/fmsw10.pdf">
-                Coresets and Sketches for High Dimensional Subspace Approximation Problems</a>
-        </dt>
-        <dd>with Morteza Monemizadeh, Christian Sohler and David Woodruf,</dd>
-        <dd class="details">Proc. 21<sup>th</sup> Annu. ACM Symp. on Discrete Algorithms (SODA) 2010</dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/private.pdf">
-                Private Coresets, </a>
-                <a class="red" href="http://people.csail.mit.edu/dannyf/private_ppt.pdf">[Slides]</a>
-        </dt>
-        <dd>with Amos Fiat, Haim Kaplan and Kobbi Nissim</dd>
-        <dd class="details">Proc. 41<sup>st</sup> Annu. ACM Symposium on Theory of Computing (STOC) 2009</dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/kmeancoreset.pdf">
-                A PTAS for k-Means Clustering Based on Weak Coresets
-            </a>
-        </dt>
-        <dd>with Morteza Monemizadeh and Christian Sohler</dd>
-        <dd class="details">Proc. 23<sup>th</sup> Annu. ACM Symposium on Computational Geometry (SoCG) 2007</dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/bicriteria.pdf">
-                Bi-criteria Linear-time Approximations for Generalized k-Mean/Median/Center
-            </a>
-        </dt>
-        <dd>with Amos Fiat, Danny Segev and Micha Sharir</dd>
-        <dd class="details">Proc. 23<sup>th</sup> Annu. ACM Symposium on Computational Geometry (SoCG) 2007</dd>
-
-
-        <dt>
-            <a href="http://people.csail.mit.edu/dannyf/wcoreset.pdf">
-                Coresets for Weighted Facilities and Their Applications
-            </a><a class="red" href="http://www.cs.tau.ac.il/%7Edannyf/wcoreset_presentation.pdf">
-                [Slides]</a>
-        </dt>
-        <dd>with Amos Fiat and Micha Sharir</dd>
-        <dd class="details">Proc. 47<sup>th</sup> Annu. IEEE Symposium on Foundations of Computer Science (FOCS) 2006</dd>
-
-
-    </dl>
-
-
-    <h2 class="green-paragraph">
-        Thesis
-    </h2>
-    <dl>
-        <dt><a href="http://people.csail.mit.edu/dannyf/phdThesis.pdf">
-            Coresets and their applications
-        </a></dt>
-        <dd>Under the supervision of Amos Fiat and Micha Sharir</dd>
-        <dd>Ph.D Thesis, December 2010</dd>
-
-
-        <dt><a href="http://people.csail.mit.edu/dannyf/wcoreset.pdf">
-            Algorithms for Finding the Optimal k-Line Mean
-        </a></dt>
-        <dd>under the supervision of Amos Fiat</dd>
-        <dd>M.Sc Thesis, March 2004</dd>
-    </dl>
+            <dd class="details">25th ACM Conference on Computer and Communications Security 2018.</dd>
+
+
+            <dt>
+                <a href="https://arxiv.org/abs/1802.07382">
+                    Coresets For Monotonic Functions with Applications to Deep Learning
+                </a>
+            </dt>
+            <dd>with Elad Tolochinsky, <i>Submitted.</i></dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/index_files/papers/RealTimeShapeFitting.pdf"><span class=SpellE>
+                    Quadcopter Tracks Quadcopter via Real Time Shape Fitting</span>
+                </a>
+            </dt>
+            <dd>with Dror Epstein.
+                <a class="red" href="https://drive.google.com/open?id=0BzcX5edx0nNwMUdyVXNSZldvUUk">
+                    [Video]
+                </a>
+            </dd>
+            <dd class="details">IEEE Robotics and Automation Letters (RA-L) 2017</dd>
+
+            <!-- Secure Search on the Cloud via Coresets and Sketches -->
+            <dt>
+                <a href="https://arxiv.org/abs/1708.05811">
+                        Secure Search on the Cloud via Coresets and Sketches
+                </a>
+                <dd>with Adi Akavia, Hayim Shaul</dd>
+            </dt>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/1703.08110.pdf">
+                    Training Mixture Models at Scale via Coresets (Fuller version)
+                </a>
+            </dt>
+            <dd>with Mario Lucic, Matthew Faulkner, Andreas Krause</dd>
+            <dd class="details">Journal of Machine Learning (JMLR) 2017</dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/FELDMAN_ICML_17.pdf">
+                    Coresets for Vector Summarization with Applications to Network Graphs
+                </a>
+            </dt>
+            <dd>with Sedat Ozer, and Daniela Rus</dd>
+            <dd class="details">International Conference on Machine Learning (ICML) 2017</dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/IPSN2017">
+                    Coresets for Differentially Private K-Means Clustering and Applications to Privacy in Mobile Sensor Networks
+                </a>
+            </dt>
+            <dd>with Ruihao Zhu, Chongyuan Xiang and Daniela Rus</dd>
+            <dd class="details">ACM/IEEE Conf. on Information Processing in Sensor Networks (IPSN) 2017, to appear</dd>
+
+
+            <dt>
+                <a href="https://arxiv.org/abs/1612.00889">
+                    New Frameworks for Offline and Streaming Coreset Constructions
+                </a>
+            </dt>
+            <dd>with Vladimir Braverman, Harry Lang</dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/NIPS2016-main.pdf">
+                    Dimensionality Reduction of Massive Sparse Datasets Using Coresets
+                </a>
+            </dt>
+            <dd>with Mikhali Volkov, Daniela Rus, <a href="http://people.csail.mit.edu/dannyf/supp.pdf">(supplementary material)</a></dd>
+            <dd class="details">Proc. 29th Conference on Neural Information Processing Systems (NIPS) 2016</dd>
+
+
+            <dt>
+                <a href="http://arxiv.org/abs/1511.08990">
+                    <i>k</i>-Means for Streaming and Distributed Big Sparse Data
+                </a>
+            </dt>
+            <dd>with Artem Barger</dd>
+            <dd class="details">Proceedings of the 2016 SIAM International Conference on Data Mining (SDM) 2016</dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/Pose-Coreset_WAFR.pdf">
+                    Low-cost and Faster Tracking Systems Using Core-sets for Pose-Estimation
+                </a>
+            </dt>
+            <dd>with Soliman Nasser and Ibrahim Jobran <a class="red" href="https://vimeo.com/154337055">[Video]</a></dd>
+
+
+            <dt>
+                <a href="http://dl.acm.org/citation.cfm?id=2814569">
+                    iDiary: From GPS Signals to a Text-Searchable Diary
+                </a>
+            </dt>
+            <dd>with Andrew Sugaya, Cynthia Sung, and Daniela Rus</dd>
+            <dd class="details">ACM Transactions on Sensor Networks, Volume I, Issue 4 2015</dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/mikhail/publications/volkov2015coresets.pdf"><span class=SpellE>Coresets</span>
+                    for Visual Summarization with Applications to
+                    Loop Closure</a>
+            </dt>
+            <dd>with G. Rossman, Dan Feldman, Mikhail V. Volkov and D. Rus</dd>
+            <dd class="details">IEEE International Conference on Robotics and Automation (ICRA) 2015</dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/mikhail/publications/nasser2015fleye-abstract.pdf">
+                    Fleye on the Car: Big data Meets the Internet of Things
+                </a>
+            </dt>
+            <dd>with Soliman Nasser, Andrew Barry, Marek Doniec, Guy Peled, Guy Rosman, Daniela Rus,
+                and Mikhail Volkov.</dd>
+            <dd class="details">ACM/IEEE Conf. on Information Processing in Sensor Networks (IPSN) 2015</dd>
+
+
+            <dt>
+                <a href="https://www.openu.ac.il/lists/mediaserver_documents/personalsites/tamirtassa/cma.pdf">
+                    More Constraints, Smaller Coresets: Constrained Matrix Approximation of Sparse Big Data
+                </a>
+            </dt>
+            <dd>with Tamir Tassa</dd>
+            <dd class="details">21st ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2015</dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/big/nips2014.pdf">
+                    Coresets for <i>k</i>-segmentation of streaming data
+                </a>
+            </dt>
+            <dd>with G. Rosman, M. Volkov, J.W. Fisher III, and D. Rus</dd>
+            <dd class="details">Proc. 27th Conference on Neural Information Processing Systems (NIPS) 2014</dd>
+
+
+            <dt>
+                <a href="http://dl.acm.org/citation.cfm?id=2582114">
+                    Smallest enclosing ball for probabilistic data
+                </a>
+            </dt>
+            <dd>with Alexander Munteanu, and Christian Sohler</dd>
+            <dd class="details">The 30<sup>th</sup> Annual Symposium on Computational Geometry (SoCG) 2014</dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/icra2014.pdf">
+                    Visual Precis Generation using Coresets
+                </a>
+            </dt>
+            <dd>with Rohan Paul, Daniela Rus and Paul Newman.</dd>
+            <dd class="details">IEEE International Conference on Robotics and Automation (ICRA) 2014</dd>
+
+
+            <dt>
+                <a href="icra2013.pdf">
+                    Big Data for Robots: Online HMM Coresets for Sensor Streams
+                </a>
+            </dt>
+            <dd>with Cathy Wu, Brian Julian, Cynthia Sung, and Daniela Rus</dd>
+            <dd class="details">IEEE International Conference on Robotics and Automation (ICRA) 2013</dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/krobots.pdf">
+                    K-Robots Clustering of Moving Sensors Using Coresets
+                </a>
+                , <a class="red" href="http://people.csail.mit.edu/dannyf/krobots_slides.pptx">[Slides]</a>
+            </dt>
+            <dd>with Stephanie Gil and Daniela Rus</dd>
+            <dd class="details">IEEE International Conference on Robotics and Automation (ICRA) 2013</dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/idiary.pdf">
+                    iDiary: From GPS Signals to a Text-Searchable iDiary
+                </a>
+            </dt>
+            <dd>with Andrew Sugaya, Cynthia Sung, and Daniela Rus</dd>
+            <dd class="details">The 11<sup>th</sup> ACM Conference on Embedded Networked Sensor System (SenSys) 2013</dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/JMIV.pdf">
+                    Learning Big (Image) Data via Coresets for Dictionaries
+                </a>
+            </dt>
+            <dd>with Micha Feigin, and Nir Sochen</dd>
+            <dd class="details">The International Biomedical and Astronomical Signal Processing (BASP) Frontiers workshop, 2013, selected to
+            The Journal of Mathematical Imaging and Vision (JMIV)</dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/GIS_coreset.pdf">
+                    The Single Pixel GIS: Learning Big Data Signals from Tiny Coresets
+                </a>
+            </dt>
+            <dd>with Cynthia Sung and Daniela Rus</dd>
+            <dd class="details">Proc. 20<sup>th</sup> ACM International Conference on Advances in Geographic Information Systems (SIGSPATIAL GIS) 2012</dd>
+
+
+            <dt>
+                <a href="http://arxiv.org/abs/1807.04518">
+                    Turning Big Data into Tiny Data:<br>
+                    Constant-size Coresets for <i>k</i>-means, PCA and Projective Clustering
+                </a>
+            </dt>
+            <dd>with Melanie Schmidt and Christian Sohler</dd>
+            <dd class="details">Proc. 24<sup>th</sup> Annu. ACM Symp. on Discrete Algorithms (SODA) 2013,</dd>
+            <dd class="details">and in the 4<sup>th</sup> Workshop on Massive Data Algorithms (MASSIVE) 2012</dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/traj.pdf">
+                    Trajectory Clustering for Motion Prediction
+                </a>
+            </dt>
+            <dd>with Cynthia Sung and Daniela Rus</dd>
+            <dd class="details">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2012</dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/comm.pdf">
+                    Communication Coverage for Independently Moving Robots
+                </a>
+            </dt>
+            <dd>with Stephanie Gil and Daniela Rus</dd>
+            <dd class="details">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2012</dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/ipsn12.pdf">
+                    An Effective Coreset Compression Algorithm for Large Scale Sensor Networks,
+                </a>
+            </dt>
+            <dd>with Andrew Sugaya and Daniela Rus</dd>
+            <dd class="details">Proc. 11<sup>th</sup> ACM/IEEE Conf. on Information Processing in Sensor Networks (IPSN) 2012</dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/outliers.pdf">
+                    Data Reduction for Weighted and Outlier-resistant Clustering,
+                </a> <a class="red" href="http://people.csail.mit.edu/dannyf/soda12.ppt">[Slides]</a>
+            </dt>
+            <dd>with Leonard J. Schulman.</dd>
+            <dd class="details">Proc. 23<sup>th</sup> Annu. ACM Symp. on Discrete Algorithms (SODA) 2012</dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/nips11.pdf">
+                    Scalable Training of Mixture Models via Coresets
+                </a> <a class="red" href="http://people.csail.mit.edu/dannyf/nips11.pptx">[Slides]</a>
+            </dt>
+            <dd>with Andreas Krause and Matthew Faulkner.</dd>
+            <dd class="details">Proc. 25th Conference on Neural Information Processing Systems (NIPS) 2011</dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/stoc11.pdf">
+                    A Unified Framework for Approximating and Clustering Data
+                </a>
+            </dt>
+            <dd>with Michael Langberg</dd>
+            <dd class="details">Proc. 43st Annu. ACM Symposium on Theory of Computing (STOC) 2011
+                <a class="red" href="http://arxiv.org/abs/1106.1379">
+                    [Fuller Version]
+                </a>
+            </dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/High_Definition_Low_Space.pdf">
+                    From High Definition Image to Low Space Optimization
+                </a>
+            </dt>
+            <dd>with Micha Feigin and Nir Sochen</dd>
+            <dd class="details">Scale Space and Variational Methods in Computer Vision (SSVM) 2011</dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/fmsw10.pdf">
+                    Coresets and Sketches for High Dimensional Subspace Approximation Problems</a>
+            </dt>
+            <dd>with Morteza Monemizadeh, Christian Sohler and David Woodruf,</dd>
+            <dd class="details">Proc. 21<sup>th</sup> Annu. ACM Symp. on Discrete Algorithms (SODA) 2010</dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/private.pdf">
+                    Private Coresets, </a>
+                    <a class="red" href="http://people.csail.mit.edu/dannyf/private_ppt.pdf">[Slides]</a>
+            </dt>
+            <dd>with Amos Fiat, Haim Kaplan and Kobbi Nissim</dd>
+            <dd class="details">Proc. 41<sup>st</sup> Annu. ACM Symposium on Theory of Computing (STOC) 2009</dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/kmeancoreset.pdf">
+                    A PTAS for k-Means Clustering Based on Weak Coresets
+                </a>
+            </dt>
+            <dd>with Morteza Monemizadeh and Christian Sohler</dd>
+            <dd class="details">Proc. 23<sup>th</sup> Annu. ACM Symposium on Computational Geometry (SoCG) 2007</dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/bicriteria.pdf">
+                    Bi-criteria Linear-time Approximations for Generalized k-Mean/Median/Center
+                </a>
+            </dt>
+            <dd>with Amos Fiat, Danny Segev and Micha Sharir</dd>
+            <dd class="details">Proc. 23<sup>th</sup> Annu. ACM Symposium on Computational Geometry (SoCG) 2007</dd>
+
+
+            <dt>
+                <a href="http://people.csail.mit.edu/dannyf/wcoreset.pdf">
+                    Coresets for Weighted Facilities and Their Applications
+                </a><a class="red" href="http://www.cs.tau.ac.il/%7Edannyf/wcoreset_presentation.pdf">
+                    [Slides]</a>
+            </dt>
+            <dd>with Amos Fiat and Micha Sharir</dd>
+            <dd class="details">Proc. 47<sup>th</sup> Annu. IEEE Symposium on Foundations of Computer Science (FOCS) 2006</dd>
+
+
+        </dl>
+
+
+            <h2 id="thesis">
+                Thesis
+            </h2>
+            <dl>
+                <dt><a href="http://people.csail.mit.edu/dannyf/phdThesis.pdf">
+                        Coresets and their applications
+                    </a></dt>
+                <dd>Under the supervision of Amos Fiat and Micha Sharir</dd>
+                <dd>Ph.D Thesis, December 2010</dd>
+
+
+                <dt><a href="http://people.csail.mit.edu/dannyf/wcoreset.pdf">
+                        Algorithms for Finding the Optimal k-Line Mean
+                    </a></dt>
+                <dd>under the supervision of Amos Fiat</dd>
+                <dd>M.Sc Thesis, March 2004</dd>
+            </dl>
+
+        </div>
+    </div>
+
+        <div class="page" id="resume_page">
+            <h2>Resume</h2>
+            <br>
+            <h2 style="align-content: center">Under Constructions</h2>
+        </div>
+        <div class="page" id="group_page">
+            <h2>Group</h2>
+            <br>
+            <h2 style="align-content: center">Under Constructions</h2>
+        </div>
+        <div class="page" id="media_page">
+            <h2 class="green-paragraph">
+                Media
+            </h2>
+                <ul>
+                    <li>
+                <a href="https://youtu.be/973i2LbDX8U" rel="noopener noreferrer" target="_blank">
+                    Interview, in "Hasufim", University of Haifa, 2015
+                </a>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/973i2LbDX8U" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </li>
+                <li>
+                <a href="http://people.csail.mit.edu/dannyf/Feldman_CVN_article.pdf" rel="noopener noreferrer" target="_blank">
+                    Article of Computer Vision News, Sept 2016
+                </a>
+                </li>
+                </ul>
+        </div>
+    </div>
 
 </body>
     <!-- Global site tag (gtag.js) - Google Analytics -->
