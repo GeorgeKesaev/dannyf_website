@@ -11,14 +11,15 @@ a {
 font-weight: 600;
 font-size: 0.9em;
 }
+
 h1 {
-font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-font-weight: 800;
-font-size: 4em;
-color: #404040;
-margin: 0em;
-text-align: center;
-margin-bottom: 0.1em;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 4em;
+  color: #404040;
+  margin: 0em;
+  text-align: center;
+  margin-bottom: 0.1em;
 }
 
 h2 {
@@ -104,9 +105,6 @@ dt {
     margin-top: 15pt;
 }
 
-ol {
-    /* float: inherit; */
-}
 .red {
     color:#E46C0A;
     font-style: italic;
@@ -241,3 +239,4 @@ html {
 .thesis .publications {
     float: left;
 }
+
