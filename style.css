@@ -6,23 +6,19 @@ header {
 
 a {
     color: #404040;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
     font-size: 0.9em;
 }
 
 h1 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-size: 4em;
   color: #404040;
   margin: 0;
   text-align: center;
-  /*margin-bottom: 0.1em;*/
 }
 
 h2 {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 2em;
     color: #404040;
     line-height: 1.1;
@@ -35,7 +31,6 @@ h3 {
     margin-right: 0;
     margin-left: 0;
     font-size: 13.5pt;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: bold;
 }
 
@@ -55,7 +50,6 @@ li {
     font-size: 27px;
     line-height: 1.1;
     display: block;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 300;
     margin: 10px 0 0;
     text-align: center;
@@ -92,8 +86,6 @@ dl {
     margin-top: 10.0pt;
     margin-bottom: 10.0pt;
     font-size: 14.0pt;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    /* list-style-type:none; */
     text-indent: -18.0pt;
     line-height: 150%;
 }
@@ -186,17 +178,10 @@ html {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/* .header {
-  background-color: #9933cc;
-  color: #ffffff;
-  padding: 15px;
-} */
-
 .menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  /* float: none; */
 }
 
 .menu li {
@@ -225,7 +210,6 @@ html {
   cursor: pointer;
   padding: 15px;
   border-radius: 45px;
-  background: rgba(0, 0, 0, 0.5);
 }
 
 #myBtn:hover {
