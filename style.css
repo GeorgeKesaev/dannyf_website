@@ -71,14 +71,13 @@ li {
     margin-right: 35%
 }
 
-p.black-paragraph {
+.black-paragraph {
     font-size:14.0pt;
     line-height:150%;
     margin-top:2.0pt;
     margin-bottom:.0001pt;
     border-bottom: 1px solid #eee;
     padding-bottom: 1em;
-    /*margin-left: 0.5em;*/
 }
 
 dl {
