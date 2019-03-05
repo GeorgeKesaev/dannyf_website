@@ -6,15 +6,29 @@ const nav_switch = {
     "media_nav" : "media_page"
 }
 
-setVisibilityForPage('about_nav');
-// window.onload = function () {
-//     setVisibilityForPage('about_nav');
-// };
 
 let top_nav = document.querySelector('.topnav');
 top_nav.addEventListener('click', (e) => {
     setVisibilityForPage(e.target.id);
 });
+
+
+function activatePageByURL () {
+    let nav = document.getElementsByClassName('topnav')[0];
+    let anchor = nav.getElementsByTagName('a');
+    let current = window.location.href.split('#')[1];
+    for (var i = 0; i < anchor.length; i++) {
+        if (anchor[i].href.split('#')[1] == current) {
+            setVisibilityForPage(current + "_nav");
+        }
+    }
+}
+
+
+// Track URL and show/hide pages accordingly
+window.addEventListener('hashchange', activatePageByURL); //to react to back/forward
+(activatePageByURL)();                                     //set desired page on page load
+
 
 function setVisibilityForPage(to_show) {
 
