@@ -215,6 +215,10 @@ html {
   background-color: #555;
 }
 
-.thesis .publications {
+.thesis {
+    float: left;
+}
+
+.publications {
     float: left;
 }
